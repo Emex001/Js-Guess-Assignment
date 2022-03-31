@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2e2c2c ;
+}
+.new-game{
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 5px 0px 0px 35px;
+} 
+.high-score{
+    float: right;
+    color: white;
+    justify-content: space-between;
+    margin: 10px 35px 0px 0px;
+}
+.main-section{
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+    border-style: solid;
+    padding: 25px 0px 10px 0px;
+}
+
+.class-guess{
+    font-size: 50px;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-style: italic;
+}
+.message{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.secret-number{
+    border-style: solid;
+    height: 80px;
+    width: 6%;
+    text-align: center;
+    align-items: center;
+    font-size: 65px;
+    background-color: white;
+    color: black;
+    margin-left: 580px;
+    margin-top: 30px;
+}
+
+.number-section{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.input-number{
+    height: 110px;
+    width: 180px;
+    text-align: center;
+}
+.btn-check{
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.score-section{
+    color: white;
+    float: right;
+    margin-right: 200px;
+}
+
+.fa-trophy{
+    color: yellow;
+    margin-right: 2px;
+}

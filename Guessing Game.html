@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Guess A Number</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap Icons Cdn Links-->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css'> 
+      
+    <body>
+       <header>
+           <button class="btn new-game">Again!</button>
+           <div class="high-score">
+            <i class="fa-solid fa-trophy"></i>
+               Highest Score:
+               <span class="current-high-score">0</span>
+           </div>
+       </header>
+       <section class="main-section">
+           <h2 class="class-guess">Guess my Number!</h2>
+           <p class="message">Guess a number between 1 - 20</p>
+           <div class="secret-number">?</div>
+       </section>
+       <section class="number-section">
+           <input type="number" class="input-number" placeholder="Enter your guess"/>
+       </br>
+       <button class="btn btn-check">Check</button>
+       </section>
+       <section class="score-section">
+           <div class="score-div">
+               <p>Current Score: <span id="current-score">20</span></p>
+               <p>Attempts Left: <span id="attempts-left">10</span></p>
+           </div>
+       </section>
+       <script src="script.js"></script>
+    </body>
+</html>
